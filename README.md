@@ -2,6 +2,7 @@
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/typescript-%3E%3D5.0.0-blue)](https://www.typescriptlang.org/)
+[![smithery badge](https://smithery.ai/badge/@mfangtao/mcp-ssh-server)](https://smithery.ai/server/@mfangtao/mcp-ssh-server)
 
 一个基于SSH2和Model Context Protocol (MCP)的SSH服务器，提供远程命令执行功能。
 
@@ -14,6 +15,15 @@
 
 ## 安装
 
+### Installing via Smithery
+
+To install SSH Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@mfangtao/mcp-ssh-server):
+
+```bash
+npx -y @smithery/cli install @mfangtao/mcp-ssh-server --client claude
+```
+
+### Manual Installation
 ```bash
 # 克隆仓库
 git clone https://github.com/your-repo/ssh-server.git
