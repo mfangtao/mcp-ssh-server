@@ -6,6 +6,10 @@
 
 一个基于SSH2和Model Context Protocol (MCP)的SSH服务器，提供远程命令执行功能。
 
+<a href="https://glama.ai/mcp/servers/@mfangtao/mcp-ssh-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@mfangtao/mcp-ssh-server/badge" alt="SSH Server MCP server" />
+</a>
+
 ## 功能特性
 
 - 通过MCP协议提供SSH远程命令执行工具
